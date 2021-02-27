@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Media/embedding: Task 1</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      audio {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Basic audio embed</h1>
+
+    <audio src="media/audio.mp3" controls>
+        <p>
+            Your browser doesn&apos;t support mp3. Click on this <a href="media/audio.mp3" >link to listen to the audio file directly instead.</a>
+        </p>
+
+    </audio>
+  </body>
+
+</html>
+
+<!--Add the path to the audio file to an appropriate attribute to embed it on the page. The audio is called audio.mp3, and it is in a folder inside the current folder called media.
+Add an attribute to make browsers display some default controls.
+Add some appropriate fallback text for browsers that don't support <audio>.-->

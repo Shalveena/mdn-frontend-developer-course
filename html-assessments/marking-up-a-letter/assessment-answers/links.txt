@@ -1,0 +1,8 @@
+Marking guide:
+https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/marking-up-a-letter-finished/marking-guide.md
+
+Code:
+https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/marking-up-a-letter-finished/index.html
+
+Output:
+https://mdn.github.io/learning-area/html/introduction-to-html/marking-up-a-letter-finished/
