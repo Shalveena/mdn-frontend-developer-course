@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+}
+
+p, li {
+    color: green;
+}
+
+li {
+    list-style-type: none;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple
+}
+
+h1 + p {
+    font-size: 200%;
+}
+
+@media (min-width: 50em) {
+    body {
+        background-color: white;
+    }
+}
+/* testing to see if this is really a comment */
